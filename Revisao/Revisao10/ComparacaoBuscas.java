@@ -7,7 +7,7 @@ public class ComparacaoBuscas {
         int chave = 20;
 
         // Busca Linear - Funciona mesmo sem ordenação
-        System.out.println("🔎 Busca Linear:");
+        System.out.println(" Busca Linear:");
         int resultadoLinear = buscaLinear(vetorDesordenado, chave);
         if (resultadoLinear != -1) {
             System.out.println("Valor " + chave + " encontrado na posição " + resultadoLinear);
@@ -15,17 +15,17 @@ public class ComparacaoBuscas {
             System.out.println("Valor não encontrado.");
         }
 
-        // Busca Binária SEM ordenar (⚠️ incorreto)
-        System.out.println("\n🔎 Busca Binária sem ordenar (INCORRETA):");
+        // Busca Binária SEM ordenar ( incorreto)
+        System.out.println("\n Busca Binária sem ordenar (INCORRETA):");
         int resultadoIncorreto = Arrays.binarySearch(vetorDesordenado, chave);
         System.out.println("Resultado: " + resultadoIncorreto + " (posição não confiável)");
 
         // Agora ordenamos o vetor
         Arrays.sort(vetorDesordenado);
-        System.out.println("\n📊 Vetor ordenado: " + Arrays.toString(vetorDesordenado));
+        System.out.println("\n Vetor ordenado: " + Arrays.toString(vetorDesordenado));
 
-        // Busca Binária após ordenar (✅ correto)
-        System.out.println("\n🔎 Busca Binária com vetor ordenado (CORRETA):");
+        // Busca Binária após ordenar ( correto)
+        System.out.println("\n Busca Binária com vetor ordenado (CORRETA):");
         int resultadoCorreto = Arrays.binarySearch(vetorDesordenado, chave);
         System.out.println("Valor " + chave + " encontrado na posição " + resultadoCorreto);
     }
