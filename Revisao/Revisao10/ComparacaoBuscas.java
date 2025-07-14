@@ -40,4 +40,3 @@ public class ComparacaoBuscas {
         return -1;
     }
 }
-
