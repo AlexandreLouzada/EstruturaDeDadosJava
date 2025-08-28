@@ -5,22 +5,23 @@ public class Principal {
         Scanner scanner = new Scanner(System.in);
 
         int[] vetor = new int[10];
-
-        System.out.println("Digite 20 números inteiros:");
+        System.out.println("Digite 10 números inteiros:");
         for (int i = 0; i < vetor.length; i++) {
             System.out.print("Número " + (i + 1) + ": ");
             vetor[i] = scanner.nextInt();
         }
 
-        // Criando objeto da classe NumeroArray
-        NumeroArray numArray = new NumeroArray(vetor);
+        NumeroArray ordenador = new NumeroArray(vetor);
 
-        // Imprimir array
-        numArray.imprimirArray();
+        System.out.println("\nArray original:");
+        ordenador.imprimirArray();
 
-        // Contar pares e ímpares
-        numArray.contarParesEImpares();
+        ordenador.bubbleSort();
+
+        System.out.println("Array ordenado (Bubble Sort):");
+        ordenador.imprimirArray();
 
         scanner.close();
     }
 }
+
