@@ -19,7 +19,7 @@ public class Principal {
         numArray.imprimirArray();
 
         // Contar pares e ímpares
-       // numArray.contarParesEImpares();
+        numArray.contarParesEImpares();
 
         scanner.close();
     }
