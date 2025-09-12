@@ -1,4 +1,4 @@
-package controle;
+package Aula03;
 
 class ListaArray {
     private int[] array;
