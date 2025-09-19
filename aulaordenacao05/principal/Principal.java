@@ -1,4 +1,3 @@
-import dominio.Pessoa;
 import controle.ControlePessoas;
 
 public class Principal {
