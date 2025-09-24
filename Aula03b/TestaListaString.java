@@ -1,4 +1,4 @@
-public class TesteListaString {
+public class TestaListaString {
     public static void main(String[] args) {
         ListaArrayString lista = new ListaArrayString(5);
 

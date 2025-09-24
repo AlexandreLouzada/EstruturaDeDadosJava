@@ -1,4 +1,4 @@
-package lista02;
+package Aula02;
 
 public class ListaArray {
 	//

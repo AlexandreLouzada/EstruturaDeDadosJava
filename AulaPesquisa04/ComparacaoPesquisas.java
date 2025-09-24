@@ -1,4 +1,4 @@
-package AulaPesquisa04;
+package aulaPesquisa04;
 
 import java.util.Arrays;
 
