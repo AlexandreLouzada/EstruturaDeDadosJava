@@ -1,5 +1,4 @@
 package listaGenericaExemplo;
-import java.util.NoSuchElementException;
 
 public class ListTeste {
     public static void main(String[] args) {
